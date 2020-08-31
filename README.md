@@ -69,7 +69,7 @@ pragma solidity 0.4.25
         ref_bonuses.push(5);
         ref_bonuses.push(3);
         ref_bonuses.push(1);
-        bonusesinveste.push(1);
+        bonuses_invested.push(1);
     }
 
     function _payout(address _addr) private {
