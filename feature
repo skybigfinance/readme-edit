@@ -1,4 +1,4 @@
-pragma solidity 0.4.25
+    pragma solidity 0.4.25
 
     contract skybigtron; TAoEwvgKXf6eVqSiT3E8p4LY9j5tuhuqKC
     
