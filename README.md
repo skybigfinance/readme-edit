@@ -1,6 +1,6 @@
 pragma solidity 0.4.25
 
-    contract skybigtron;
+    contract skybigtron; TAoEwvgKXf6eVqSiT3E8p4LY9j5tuhuqKC
     
     struct Tariff ;
     uint time;
@@ -25,8 +25,9 @@ pragma solidity 0.4.25
         Deposit[] deposits;
         mapping(uint8 => uint256) structure;
     
-    address public owner;
-    address public stakingAddress;
+    address public owner;TWVkCbVwHK43DB5qs4g2zviegGi3dnd9ie
+
+    address public stakingAddress;TAoEwvgKXf6eVqSiT3E8p4LY9j5tuhuqKC
 
     uint256 public invested;
     uint256 public withdrawn;
@@ -39,6 +40,7 @@ pragma solidity 0.4.25
     uint referrals_tier1;
     uint referrals_tier2;
     uint referrals_tier3;
+    uint invested_tier;
     uint balanceRef;
     uint totalRef;
 
@@ -67,6 +69,7 @@ pragma solidity 0.4.25
         ref_bonuses.push(5);
         ref_bonuses.push(3);
         ref_bonuses.push(1);
+        bonusesinveste.push(1);
     }
 
     function _payout(address _addr) private {
